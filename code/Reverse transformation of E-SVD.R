@@ -1,4 +1,4 @@
-Decompression <- function(theta){
+Reverse_transformation <- function(theta){
   n = dim(theta)[1]
   l = dim(theta)[2]
   c = cos(theta)
